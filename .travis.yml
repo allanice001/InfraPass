@@ -2,13 +2,11 @@ language: python
 python:
   - "3.6"
   - "3.7"
-cache:
-  directories:
-    - $HOME/.pip-cache/
+cache: pip
 install:
   - sudo apt-get update
   - sudo apt-get install -qq slapd ldap-utils
-  - pip install -r requirements-mysql.txt -r requirements-dev.txt --use-mirrors --download-cache $HOME/.pip-cache/
+  - pip install -r requirements-mysql.txt -r requirements-dev.txt
   - pip install -r requirements-pgsql.txt --use-mirrors --download-cache $HOME/.pip-cache/
 before_script:
   - pushd docs/ldap; DEBUG=true ./startldap.sh; popd
