@@ -48,7 +48,7 @@ pywin32==224              # via pypiwin32
 pyyaml==5.4             # via cfn-lint, moto
 requests==2.22.0          # via docker, moto, responses
 responses==0.10.6         # via moto
-rsa==4.0                  # via python-jose
+rsa==4.7                  # via python-jose
 s3transfer==0.2.1         # via boto3
 selenium==3.141.0
 six==1.12.0               # via aws-sam-translator, cfn-lint, cryptography, docker, jsonschema, mock, moto, pyrsistent, python-dateutil, python-jose, responses, websocket-client
