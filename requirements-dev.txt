@@ -45,7 +45,7 @@ python-dateutil==2.8.0    # via botocore, moto
 python-jose==3.4.0        # via moto
 pytz==2019.2              # via datetime, moto
 pywin32==224              # via pypiwin32
-pyyaml==5.4             # via cfn-lint, moto
+pyyaml==5.4.1             # via cfn-lint, moto
 requests==2.32.4          # via docker, moto, responses
 responses==0.10.6         # via moto
 rsa==4.7                  # via python-jose
