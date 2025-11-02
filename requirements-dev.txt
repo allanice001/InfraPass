@@ -41,7 +41,7 @@ pycparser==2.19           # via cffi
 pyflakes==2.1.1
 pypiwin32==223            # via docker
 pyrsistent==0.15.4        # via jsonschema
-python-dateutil==2.8.0    # via botocore, moto
+python-dateutil==2.8.2    # via botocore, moto
 python-jose==3.4.0        # via moto
 pytz==2019.2              # via datetime, moto
 pywin32==224              # via pypiwin32
