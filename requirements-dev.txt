@@ -22,7 +22,7 @@ docker==4.0.2             # via moto
 docutils==0.15.2          # via botocore
 ecdsa==0.13.2             # via python-jose, sshpubkeys
 future==0.18.3            # via aws-xray-sdk, python-jose
-idna==2.8                 # via moto, requests
+idna==3.7                 # via moto, requests
 jinja2==2.10.1            # via moto
 jmespath==0.9.4           # via boto3, botocore
 jsondiff==1.1.2           # via moto
