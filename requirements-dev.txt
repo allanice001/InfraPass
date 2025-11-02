@@ -24,7 +24,7 @@ ecdsa==0.13.2             # via python-jose, sshpubkeys
 future==0.18.3            # via aws-xray-sdk, python-jose
 idna==2.8                 # via moto, requests
 jinja2==2.10.1            # via moto
-jmespath==0.9.4           # via boto3, botocore
+jmespath==0.9.5           # via boto3, botocore
 jsondiff==1.1.2           # via moto
 jsonpatch==1.24           # via cfn-lint
 jsonpickle==1.5.0           # via aws-xray-sdk
