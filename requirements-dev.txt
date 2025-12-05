@@ -53,7 +53,7 @@ s3transfer==0.2.1         # via boto3
 selenium==3.141.0
 six==1.12.0               # via aws-sam-translator, cfn-lint, cryptography, docker, jsonschema, mock, moto, pyrsistent, python-dateutil, python-jose, responses, websocket-client
 sshpubkeys==3.1.0         # via moto
-urllib3==1.25.3           # via botocore, requests, selenium
+urllib3==2.6.0           # via botocore, requests, selenium
 websocket-client==0.56.0  # via docker
 werkzeug==0.15.5          # via moto
 wrapt==1.11.2             # via aws-xray-sdk
