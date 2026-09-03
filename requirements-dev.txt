@@ -58,7 +58,7 @@ websocket-client==0.56.0  # via docker
 werkzeug==0.15.5          # via moto
 wrapt==1.11.2             # via aws-xray-sdk
 xmltodict==0.12.0         # via moto
-zope.interface==4.6.0     # via datetime
+zope.interface==8.6     # via datetime
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools==41.2.0        # via cfn-lint, jsonschema, zope.interface
