@@ -12,7 +12,7 @@ boto3==1.9.214            # via aws-sam-translator, moto
 boto==2.49.0              # via moto
 botocore==1.12.214        # via aws-xray-sdk, boto3, moto, s3transfer
 certifi==2019.6.16        # via requests
-cffi==1.12.3              # via cryptography
+cffi==2.1.1              # via cryptography
 cfn-lint==0.23.3          # via moto
 chardet==3.0.4            # via requests
 cryptography==2.7         # via moto, sshpubkeys
@@ -25,14 +25,14 @@ future==0.18.3            # via aws-xray-sdk, python-jose
 idna==2.8                 # via moto, requests
 jinja2==2.10.1            # via moto
 jmespath==0.9.4           # via boto3, botocore
-jsondiff==1.1.2           # via moto
+jsondiff==2.2.1           # via moto
 jsonpatch==1.24           # via cfn-lint
-jsonpickle==1.5.0           # via aws-xray-sdk
+jsonpickle==2.2.0           # via aws-xray-sdk
 jsonpointer==2.0          # via jsonpatch
 jsonschema==3.0.2         # via aws-sam-translator, cfn-lint
-markupsafe==1.1.1         # via jinja2
+markupsafe==2.1.5         # via jinja2
 mock==3.0.5
-moto==1.3.13
+moto==2.3.2
 nose-testconfig==0.10
 nose==1.3.7
 pep8==1.7.1
@@ -56,7 +56,7 @@ sshpubkeys==3.1.0         # via moto
 urllib3==1.25.3           # via botocore, requests, selenium
 websocket-client==0.56.0  # via docker
 werkzeug==0.15.5          # via moto
-wrapt==1.11.2             # via aws-xray-sdk
+wrapt==2.4.0             # via aws-xray-sdk
 xmltodict==0.12.0         # via moto
 zope.interface==4.6.0     # via datetime
 
