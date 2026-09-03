@@ -14,7 +14,7 @@ botocore==1.12.214        # via aws-xray-sdk, boto3, moto, s3transfer
 certifi==2019.6.16        # via requests
 cffi==1.12.3              # via cryptography
 cfn-lint==0.23.3          # via moto
-chardet==3.0.4            # via requests
+chardet==4.0.0            # via requests
 cryptography==2.7         # via moto, sshpubkeys
 datetime==4.3             # via moto
 django-nose==1.4.6
@@ -27,12 +27,12 @@ jinja2==2.10.1            # via moto
 jmespath==0.9.4           # via boto3, botocore
 jsondiff==1.1.2           # via moto
 jsonpatch==1.24           # via cfn-lint
-jsonpickle==1.5.0           # via aws-xray-sdk
+jsonpickle==4.1.2           # via aws-xray-sdk
 jsonpointer==2.0          # via jsonpatch
-jsonschema==3.0.2         # via aws-sam-translator, cfn-lint
+jsonschema==4.26.0         # via aws-sam-translator, cfn-lint
 markupsafe==1.1.1         # via jinja2
-mock==3.0.5
-moto==1.3.13
+mock==4.0.3
+moto==4.2.14
 nose-testconfig==0.10
 nose==1.3.7
 pep8==1.7.1
