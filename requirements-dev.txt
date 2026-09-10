@@ -5,7 +5,7 @@
 #    pip-compile requirements-dev.in
 #
 asn1crypto==0.24.0        # via cryptography
-attrs==19.1.0             # via jsonschema
+attrs==20.3.0             # via jsonschema
 aws-sam-translator==1.13.2  # via cfn-lint
 aws-xray-sdk==2.4.2       # via moto
 boto3==1.9.214            # via aws-sam-translator, moto
